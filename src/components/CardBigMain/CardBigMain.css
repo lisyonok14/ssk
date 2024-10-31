@@ -1,0 +1,32 @@
+
+*{
+    color: #282828;
+}
+.cardMain{
+    cursor: pointer;
+    margin: 4% auto;
+    background: white;
+    width: 90%;
+    height: 513px;
+    display: flex;
+    border-radius: 20px;
+}
+.cardMainInfo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 2% ;
+    >h2{
+        font-size: 36px;
+        font-weight: 800;
+    }
+    >p{
+        font-size: 24px;
+        margin-bottom: 18%;
+        
+    }
+}
+.btnMain{
+    background-color: aqua;
+}
+
