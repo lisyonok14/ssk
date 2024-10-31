@@ -1,0 +1,45 @@
+.Documents{
+    background-color: white;
+    width: 90%;
+    margin: 3% auto; 
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2% 0;
+} 
+.Docpic{
+    width: 32%;
+    >img{
+        width: 100%;
+        border-radius: 30px;
+    }
+}
+.infDOc{
+    margin-left: 2%;
+    >h2{
+        font-size: 36px;
+    }
+}
+.Docinf{
+    margin-left: 6%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+.btnPdf{
+    padding: 10px 30px;
+    font-size: 17px;
+}
+
+.pdff1, .pdff2{
+    >p{
+        font-size: 22px;
+        margin: 20px 0;
+    }
+}
+
+iframe{
+    width: 900px;
+}

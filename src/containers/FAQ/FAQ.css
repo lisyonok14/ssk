@@ -1,0 +1,38 @@
+.FAQmain{
+    background-color: white;
+    width: 90%;
+    margin: 3% auto; 
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+} 
+.FAQpic{
+    width: 38%;
+    >img{
+        width: 100%;
+        border-radius: 30px;
+    }
+}
+.FAQinf{
+    margin-left: 4%;
+    >p{
+        font-size: 27px;
+        font-weight: 600;
+
+    }
+}
+.aa{
+    display: flex;
+    margin-top: 12%;
+    align-items: center;
+    text-align: center;
+    >img{
+        margin-bottom: 19px;
+    }
+    >h2{
+        /* vertical-align: middle; */
+        font-size: 45px;
+        margin-bottom: 8%;
+        white-space: nowrap;
+    }
+}

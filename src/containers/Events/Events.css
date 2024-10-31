@@ -1,0 +1,62 @@
+.hd{
+    display: flex;
+    margin-left: 4%;
+    >h2{
+        margin-left: 1%;
+        font-size: 40px;
+    }
+    >img{
+        width: 40px;
+    }
+}
+.btns{
+    margin-left: 4%;
+    display: flex;
+    width: 22%;
+    justify-content: space-between;
+    >button{
+        padding: 20px 30px;
+        font-size: 20px;
+        font-weight: 800;
+
+    }
+}
+
+h3{
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 36px;
+}
+.data{
+    background-color: #07A4FB;
+    color: white;
+}
+
+#bt1, #bt2{
+    padding: 8px 25px;
+    /* width: 1%; */
+}
+#bt1{
+    font-size: 16px;
+    width: 21%;
+    margin-top: 3%;
+    cursor: auto;
+}
+#bt2{
+    width: 30%;
+    background-color: #F5922D;
+    margin-top: 1%;
+    cursor: pointer;
+    font-size: 20px;
+}
+#ev,#evv{
+    height: 350px;
+    cursor: auto;
+}
+.kat{
+    margin-bottom: 3%;
+}
+.kat p{
+    font-size: 24px;
+}

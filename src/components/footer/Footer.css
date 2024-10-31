@@ -1,0 +1,40 @@
+footer{
+    height: 98px;
+    background-color: white;
+    padding: 15px 3%;
+    display: flex;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 70%;
+    >.tgVk{
+        width: 70%;
+        height: 60px;
+        display: flex;
+        margin-right: 90%;
+    }
+    >.tgVk img{
+        width: 32px;
+        cursor: pointer;
+    }
+    >.tgVk img:nth-child(1){
+        /* padding: 20px; */
+        padding-right: 20%;
+    }
+}
+
+.numbEm{width: 130%;
+}
+.numb, .mail{
+    display: flex;
+    flex-direction: row;
+    width: 130%;
+    flex-wrap: nowrap;
+}
+#lg{
+    width: 70px;
+    cursor: pointer;
+}
